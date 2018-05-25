@@ -47,3 +47,8 @@ how your npm package works. For instance, if minor version bumps can introduce b
 lock your package with a `~`. If only major version bumps can introduce breaking changes, lock your
 package with a `^`. If the package is highly unstable, you probably shouldn't install it but
 definitely hard version lock it with the `-E` option.
+
+8. Major version upgrade is done via the install command (bad contrived example)
+```
+> npm i react@16.4.0 --save
+```
