@@ -13,3 +13,8 @@ Step 4: Demo upgrade does something
 
 Step 5: Install react 15.5.0 to demo ~ and ^ locking
 > npm i react@15.5.0 -E --save
+
+Step 6: Demo ~ bound package upgrade
+Change "15.5.0" to "~15.5.0"
+> npm upgrade
+=> React 15.5.4 installed, i.e. patch version locked
