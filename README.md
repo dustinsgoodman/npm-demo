@@ -31,14 +31,14 @@ npm i react@15.5.0 -E --save
 6. Demo ~ bound package upgrade
 ```
 # Change "15.5.0" to "~15.5.0"
-> npm upgrade
+npm upgrade
 # => React 15.5.4 installed, i.e. patch version locked
 ```
 
 7. Demo ^ bound package upgrade
 ```
 # Changed "~15.5.4" to "^15.5.4"
-> npm upgrade
+npm upgrade
 # => React 15.6.2 installed, i.e. minor + patch version locked
 ```
 
@@ -50,7 +50,7 @@ definitely hard version lock it with the `-E` option.
 
 8. Major version upgrade is done via the install command (bad contrived example)
 ```
-> npm i react@16.4.0 --save
+npm i react@16.4.0 --save
 ```
 
 ## Part 2: Dealing with conflicts
@@ -59,6 +59,11 @@ definitely hard version lock it with the `-E` option.
 ```
 npm i react@15.5.4 --save
 npm i @smashgg/gg-components@0.12.0 --save
+```
+
+2. On integration branch, upgrade package to latest at time of development
+```
+npm i @smashgg/gg-components@0.14.0 --save
 ```
 
 3. Update master to latest version of package
