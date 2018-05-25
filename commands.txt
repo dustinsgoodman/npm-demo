@@ -18,3 +18,8 @@ Step 6: Demo ~ bound package upgrade
 Change "15.5.0" to "~15.5.0"
 > npm upgrade
 => React 15.5.4 installed, i.e. patch version locked
+
+Step 7: Demo ^ bound package upgrade
+Changed "~15.5.4" to "^15.5.4"
+> npm upgrade
+=> React 15.6.2 installed, i.e. minor + patch version locked
