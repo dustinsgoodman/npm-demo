@@ -52,3 +52,11 @@ definitely hard version lock it with the `-E` option.
 ```
 > npm i react@16.4.0 --save
 ```
+
+## Part 2: Dealing with conflicts
+
+1. Installing back to react 15.5.4 for compatibility with gg-components
+```
+npm i react@15.5.4 --save
+npm i @smashgg/gg-components@0.12.0 --save
+```
