@@ -70,3 +70,10 @@ npm i @smashgg/gg-components@0.14.0 --save
 ```
 npm i @smashgg/gg-components@0.15.1 --save
 ```
+
+4. Merge or rebase master into your local branch. Resolve all conflicts except for the ones in your
+package-lock.json. Make sure package.json is resolved. Once resolved, run:
+```
+npm i --package-lock-only
+```
+Commit your changes and continue until complete.
