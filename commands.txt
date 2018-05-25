@@ -1,5 +1,5 @@
 Step 1: Install a package locked at version
-> npm in react@15.6.0 -E --save
+> npm i react@15.6.0 -E --save
 
 Step 2: Demo upgrade does nothing
 > npm upgrade
@@ -10,3 +10,6 @@ Step 3: Install same package unlocked (notice package-lock.json didn't change)
 Step 4: Demo upgrade does something
 > npm upgrade
 => React now at 15.6.2
+
+Step 5: Install react 15.5.0 to demo ~ and ^ locking
+> npm i react@15.5.0 -E --save
