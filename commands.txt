@@ -1,1 +1,6 @@
-npm in react@15.6.0 -E --save
+Step 1: Install a package locked at version
+> npm in react@15.6.0 -E --save
+
+Step 2: Demo update/upgrade do nothing
+> npm upgrade
+> npm update
