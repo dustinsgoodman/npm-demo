@@ -60,3 +60,8 @@ definitely hard version lock it with the `-E` option.
 npm i react@15.5.4 --save
 npm i @smashgg/gg-components@0.12.0 --save
 ```
+
+3. Update master to latest version of package
+```
+npm i @smashgg/gg-components@0.15.1 --save
+```
